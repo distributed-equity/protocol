@@ -1,4 +1,4 @@
-<!-- {{DEL:Licence version=1.0 license_uri=https://github.com/distributed-equity/licence/blob/main/del-v1.0.md copyright_holder="Kevin Ryan, Founder, DistributedEquity.org"}} -->
+<!-- {{DEL:License version=1.0 license_uri=https://github.com/distributed-equity/license/blob/main/del-v1.0.md copyright_holder="Kevin Ryan, Founder, DistributedEquity.org"}} -->
 <!-- {{DEL:UniquePurpose purpose="To provide a public licensing standard for AI-accessible creative works."}} -->
 <!-- {{DEL:Holistic AITraining AIRetrieval AITuning Attributable}} -->
 
@@ -16,7 +16,7 @@ It ensures that **human creators retain authorship, attribution, and equitable v
 | Repository | Description |
 |-------------|-------------|
 | [**manifesto**](https://github.com/distributed-equity/manifesto) | The philosophical foundation — the **Distributed Equity Manifesto (Block #0000000000)** — outlining the moral and ethical rationale behind DEL. |
-| [**licence**](https://github.com/distributed-equity/licence) | The legal framework — the **Distributed Equity License v1.0 (Block #0000000001)** — defining the terms, tags, and enforceable permissions for creative works. |
+| [**license**](https://github.com/distributed-equity/license) | The legal framework — the **Distributed Equity License v1.0 (Block #0000000001)** — defining the terms, tags, and enforceable permissions for creative works. |
 | [**protocol**](https://github.com/distributed-equity/protocol) | The technical specification — the **DEL Protocol v1.0 (Block #0000000002)** — describing the tag syntax, metadata structure, and interoperability guidelines. |
 
 Together, these three repositories form the **DEL Core Blocks**, defining the foundation of *Distributed Equity* — a system where creativity, consent, and compensation coexist in harmony.
@@ -58,7 +58,7 @@ Permissions and restrictions are encoded using tags, such as:
 | `UniquePurpose` | Declares the work created for a single defined purpose |
 | `PublicDomain` | Irrevocably releases the content to the public domain |
 
-See [Section 5 of the License](https://github.com/distributed-equity/licence/blob/main/del-v1.0.md#5-license-tags-and-permissions) for formal definitions.
+See [Section 5 of the License](https://github.com/distributed-equity/license/blob/main/del-v1.0.md#5-license-tags-and-permissions) for formal definitions.
 
 ---
 
@@ -67,7 +67,7 @@ See [Section 5 of the License](https://github.com/distributed-equity/licence/blo
 | Block ID | Document | Repository | Purpose |
 |-----------|-----------|-------------|----------|
 | **#0000000000** | [Distributed Equity Manifesto v1.0](https://github.com/distributed-equity/manifesto/blob/main/manifest-v1.0.md) | `manifesto` | Foundational declaration of ethics and human-centric principles |
-| **#0000000001** | [Distributed Equity License v1.0](https://github.com/distributed-equity/licence/blob/main/del-v1.0.md) | `licence` | Legal and ethical framework defining rights, attribution, and enforcement |
+| **#0000000001** | [Distributed Equity License v1.0](https://github.com/distributed-equity/license/blob/main/del-v1.0.md) | `licence` | Legal and ethical framework defining rights, attribution, and enforcement |
 | **#0000000002** | [DEL Protocol v1.0](https://github.com/distributed-equity/protocol/blob/main/protocol-v1.0.md) | `protocol` | Technical standard defining tag syntax, parsing, and registry operations |
 
 ---
@@ -77,7 +77,7 @@ See [Section 5 of the License](https://github.com/distributed-equity/licence/blo
 1. **Include a top-level declaration** in your Markdown, article, or dataset:
 
    ```markdown
-   <!-- {{DEL:Licence version=1.0 license_uri=https://github.com/distributed-equity/licence/blob/main/del-v1.0.md copyright_holder="Your Name"}} -->
+   <!-- {{DEL:License version=1.0 license_uri=https://github.com/distributed-equity/licence/blob/main/del-v1.0.md copyright_holder="Your Name"}} -->
    <!-- {{DEL:UniquePurpose purpose="Example use: training dataset documentation"}} -->
    <!-- {{DEL:Holistic AITraining AIRetrieval AITuning Attributable}} -->
    ```
@@ -111,7 +111,7 @@ DEL is an open, collaborative standard.
 You can contribute by:
 
 - Proposing new tags or metadata attributes in the [protocol repo](https://github.com/distributed-equity/protocol)
-- Refining or extending legal text in the [licence repo](https://github.com/distributed-equity/licence)
+- Refining or extending legal text in the [license repo](https://github.com/distributed-equity/license)
 - Contributing essays or principles in the [manifesto repo](https://github.com/distributed-equity/manifesto)
 
 Open an issue or pull request to participate.
@@ -122,14 +122,14 @@ Open an issue or pull request to participate.
 
 - 🌐 **Website:** [DistributedEquity.org](https://distributedequity.org)  
 - 📜 **Manifesto:** [manifest-v1.0.md](https://github.com/distributed-equity/manifesto/blob/main/manifest-v1.0.md)  
-- ⚖️ **License:** [del-v1.0.md](https://github.com/distributed-equity/licence/blob/main/del-v1.0.md)  
+- ⚖️ **License:** [del-v1.0.md](https://github.com/distributed-equity/license/blob/main/del-v1.0.md)  
 - 🧩 **Protocol:** [protocol-v1.0.md](https://github.com/distributed-equity/protocol/blob/main/protocol-v1.0.md)
 
 ---
 
 © 2025 Kevin Ryan, [DistributedEquity.org](https://distributedequity.org).  
-Released under the [Distributed Equity License v1.0](https://github.com/distributed-equity/licence/blob/main/del-v1.0.md).
+Released under the [Distributed Equity License v1.0](https://github.com/distributed-equity/license/blob/main/del-v1.0.md).
 
 <!-- {{/DEL:Holistic}} -->
 <!-- {{/DEL:UniquePurpose}} -->
-<!-- {{/DEL:Licence}} -->
+<!-- {{/DEL:License}} -->
