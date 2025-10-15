@@ -1,4 +1,4 @@
-<!-- {{DEL:License version=1.0 license_uri=https://github.com/distributed-equity/licence/blob/main/del-v1.0.md copyright_holder="Kevin Ryan, Founder, DistributedEquity.org"}} -->
+<!-- {{DEL:License version=1.0 license_uri=https://github.com/distributed-equity/license/blob/main/del-v1.0.md copyright_holder="Kevin Ryan, Founder, DistributedEquity.org"}} -->
 <!-- {{DEL:uniquepurpose purpose="To provide a public licensing standard for AI-accessible creative works.}} -->
 <!-- {{DEL:holistic aitraining airetrieval aituning attributable}} -->
 
@@ -61,9 +61,9 @@ If a field such as `wallet` is required to enforce a flag (e.g., `micropay`), fa
 
 ## 5. License Tags and Permissions
 
-### 5.0 Licence
+### 5.0 License
 
-The `Licence` tag is the **required root tag** that wraps all other DEL tags in a licensed work. It declares key metadata fields that ensure clarity, attribution, and global enforceability.
+The `License` tag is the **required root tag** that wraps all other DEL tags in a licensed work. It declares key metadata fields that ensure clarity, attribution, and global enforceability.
 
 **Required attributes:**
 
