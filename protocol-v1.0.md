@@ -134,15 +134,15 @@ The DEL ecosystem uses a block-based versioning system:
 
 | Block # | Document | Version | Status |
 |---------|----------|---------|--------|
-| #0000 | DEL Manifesto | 1.0 | Published |
-| #0001 | DEL License | 1.0 | Published |
-| #0002 | DEL Protocol | 1.0 | **This document** |
-| #0003+ | Future extensions | TBD | Reserved |
+| #0000000000 | DEL Manifesto | 1.0 | Published |
+| #0000000001 | DEL License | 1.0 | Published |
+| #0000000002 | DEL Protocol | 1.0 | **This document** |
+| #0000000003+ | Future extensions | TBD | TBD |
 
 **Block Numbering Rules:**
 - Core documents use sequential block numbers
 - Each block is immutable once published
-- New versions create new blocks (e.g., License v2.0 → #0010)
+- New versions create new blocks (e.g., License v2.0 → #0000000010)
 - Block hashes provide cryptographic verification
 
 ### 2.3 Component Overview
@@ -1477,13 +1477,13 @@ Each major document receives a block number:
 
 | Block | Document | Current Version |
 |-------|----------|-----------------|
-| #0000 | DEL Manifesto | 1.0 |
-| #0001 | DEL License | 1.0 |
-| #0002 | DEL Protocol | 1.0 |
+| #0000000000 | DEL Manifesto | 1.0 |
+| #0000000001 | DEL License | 1.0 |
+| #0000000002 | DEL Protocol | 1.0 |
 
 Future major versions increment the block:
-- Protocol v2.0 → Block #0012
-- License v2.0 → Block #0011
+- Protocol v2.0 → Block #0000000012
+- License v2.0 → Block #0000000011
 
 ### 10.3 Flag Extension Process
 
@@ -1734,9 +1734,7 @@ DistributedEquity.org commits to:
 
 ## 13. Implementation Resources (Planned)
 
-### 13.1 Reference Implementations
-
-Complete reference parsers are available in the DEL Protocol repository:
+### 13.1 Reference Implementations (Planned)
 
 **Python Parser:**
 - Repository: https://github.com/distributed-equity/del-parser-python
