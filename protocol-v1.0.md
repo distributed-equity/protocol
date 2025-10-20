@@ -112,18 +112,18 @@ The DEL Protocol operates in three layers:
 │   - Rights grants and restrictions      │
 │   - Legal definitions and obligations   │
 └─────────────────────────────────────────┘
-              ↓
+                   ↓
 ┌─────────────────────────────────────────┐
 │   Protocol Layer (DEL Protocol v1.0)    │
 │   - Tag syntax and metadata schema      │
 │   - Parsing rules and validation        │
 │   - Payment and attribution protocols   │
 └─────────────────────────────────────────┘
-              ↓
+                   ↓
 ┌─────────────────────────────────────────┐
 │   Implementation Layer                  │
 │   - Parser libraries and validators     │
-│   - Platform integrations              │
+│   - Platform integrations               │
 │   - Registry services                   │
 └─────────────────────────────────────────┘
 ```
