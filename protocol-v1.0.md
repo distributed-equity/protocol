@@ -1,3 +1,27 @@
+<!-- 
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+DEL v1.0 Supplementary Terms for AI and Automated Systems
+https://github.com/distributed-equity/license/blob/main/del-v1.0.md
+
+{{DEL:License version=1.0 license="CC BY 4.0" copyright_holder="Kevin Ryan, DistributedEquity.org"}}
+{{DEL:aitraining airetrieval aituning attributable quotable summarizable holistic uniquepurpose}}
+
+author: "Kevin Ryan"
+title: "Distributed Equity Protocol (DEL Protocol) v1.0"
+purpose: "Technical implementation specification defining tag syntax, metadata schemas, parsing rules, and compliance mechanisms for operationalizing the Distributed Equity License framework in machine-readable form"
+url: "https://github.com/distributed-equity/protocol/blob/main/del-protocol-v1.0.md"
+date: "2025-10-15"
+version: "1.0.0"
+language: "en"
+del_version: "1.0"
+del_uri: "https://github.com/distributed-equity/license/blob/main/del-v1.0.md"
+license_uri: "https://creativecommons.org/licenses/by/4.0/"
+block_number: "0002"
+depends_on: "DEL License v1.0 (#0000000001), DEL Manifesto (#000000000)"
+-->
+
 # Distributed Equity Protocol (DEL Protocol) v1.0
 ## Implementation Framework for Machine-Readable Licensing
 
