@@ -3,7 +3,7 @@
 
 ---
 
-**Release Notes - DEL Protocol v1.0 (October 15, 2025)**
+**Release Notes - DEL Protocol v1.0**
 
 This is the initial release of the Distributed Equity Protocol, providing technical specifications for implementing the Distributed Equity License (DEL) v1.0 framework.
 
@@ -21,9 +21,9 @@ See Section 12 for important limitations and disclaimers.
 
 **Version**: 1.0
 
-**Block Number**: #0002
+**Block Number**: #0000000002
 
-**Dependencies**: DEL License v1.0 (#0001), DEL Manifesto (#0000)
+**Dependencies**: DEL License v1.0 (#0000000001), DEL Manifesto (#0000000000)
 
 ---
 
@@ -1732,7 +1732,7 @@ DistributedEquity.org commits to:
 
 ---
 
-## 13. Implementation Resources
+## 13. Implementation Resources (Planned)
 
 ### 13.1 Reference Implementations
 
@@ -1763,9 +1763,8 @@ del-validate --recursive ./src
 del-validate --format json --output report.json ./src
 ```
 
-### 13.2 Integration Libraries
+### 13.2 Integration Libraries (Planned)
 
-**Available Packages:**
 - Python: `del-protocol`
 - JavaScript/TypeScript: `@del/protocol`
 - Ruby: `del-protocol` (community)
@@ -1774,11 +1773,7 @@ del-validate --format json --output report.json ./src
 ### 13.3 Documentation and Support
 
 - **Protocol Specification**: https://github.com/distributed-equity/protocol
-- **Implementation Guide**: https://docs.del.org/implementation
-- **API Reference**: https://docs.del.org/api
-- **Community Forum**: https://discuss.del.org
-- **GitHub Issues**: https://github.com/distributed-equity/protocol/issues
-- **Email**: contact@distributedequity.org
+- **Email**: hello@distributedequity.org
 
 ---
 
@@ -1949,13 +1944,21 @@ https://github.com/distributed-equity/protocol
 - Payment infrastructure components
 - Registry implementations
 
-**Community Discussions:**
-https://github.com/distributed-equity/protocol/discussions
-
 **Contact:**
-- Email: contact@distributedequity.org
+- Email: hello@distributedequity.org
 - GitHub: @distributed-equity
 - Website: https://distributedequity.org
+
+---
+
+```yaml
+
+Signed on behalf of DistributedEquity.org (Block #0000000001):
+Kevin Ryan  
+Founder, DistributedEquity.org  
+Date: 20 October 2025 (UTC+02:00, Europe/Dublin)
+
+```
 
 ---
 
